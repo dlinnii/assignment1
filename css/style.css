@@ -1,0 +1,497 @@
+/*Create Container*/
+#container{
+	width: 1000px;
+	background-color:  #ffffff;
+	margin: auto;
+}
+
+
+/*Initialize header*/
+#header{	
+	height: 175px;
+	border: 2px solid white;
+	background-color: black;
+}
+
+
+/*Initialize navigation bar*/
+#navbar{
+	border: 2px solid white;
+	background-color: black;
+	margin-top: -2px;
+}
+
+
+/*Initialize header 1*/
+h1{
+	color: white;
+	text-align: center;
+	margin-right: 260px;
+	margin-top:30px;
+}
+
+
+/*Initialize header 4*/
+h4{
+	font-size:30px;
+	text-align: center;
+}
+
+
+/*Image from left header side*/
+#header_image_1{
+	float: left;
+}
+
+
+/*Image from right header side*/
+#header_image_2{
+	float: right;
+	margin-top: -192px;
+	margin-right: -40px;
+}
+
+/*display list in 1 line*/
+li{
+	display: inline;
+}
+
+/*Initialize unordered list*/
+ul{
+	color: red;
+	margin-left: 50px;
+}
+
+/*Initialize anchor*/
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+/*link color*/
+a:link{
+	color: blue;
+}
+
+/*change color when pass with mouse on top of the link*/ 
+a:hover{
+	color: red;
+}
+
+/*change color when press on link*/
+a:active{
+	color: blue;
+}
+
+/*Show current page in different color*/
+.current_page{
+	color: blue;
+}
+
+/*right side content for Home Page*/ 
+#content1{
+	border: 1px solid blue;
+	background-color: #e6f9ff;
+	width:482px;
+	font-size: 20px;
+	padding: 19px;
+	margin: 20px;
+}
+
+/*right side phot in Home Page*/
+#aside_photo{
+	float: right;
+	margin-top:-444px;
+	padding: 20px;
+}
+
+/*left side photo in Home Page*/
+#picture{
+	margin: 20px;
+}
+
+/*aside text for Home Page*/
+#aside_text{
+	float: right;
+	border: 1px solid blue;
+	width: 390px;
+	margin-top: -227px;
+	background-color:  #e6f9ff;
+	margin-right: 21px;
+	font-size: 20px;
+	padding: 11px;
+}
+
+/*Sitemap container*/
+#sitemap_container{
+	background-color: black;
+	width: 995px;
+	height: 175px;
+	border: 2px solid white;
+}
+
+/*Sitemap content from left side*/
+#sitemap1{
+	width: 175px;
+	background-color: black;
+	margin-top: -175px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	padding: 10px 0px;
+}
+
+.left_side_1{
+	display: block;
+	margin:10px 0px;
+	
+}
+
+.left_side_2{
+	display: block;
+	margin:10px 0px;
+}
+
+.left_side_3{
+	display: block;
+	margin:10px 0px;
+}
+
+.left_side_4{
+	display: block;
+	margin:10px 0px;
+}
+
+/*Sitemap content from center side*/
+#sitemap2{
+	background-color: black;
+	margin-left: 370px;
+	width: 177px;
+	margin-top: -180px;
+	margin-bottom: 15px;	
+	padding: 10px 0px;
+}
+
+/*first line center*/
+.center_side_1{
+	display: block;
+	margin:10px 0px;
+}
+
+/*second line center*/
+.center_side_2{
+	display: block;
+	margin:10px 0px;
+}
+
+/*third line center*/
+.center_side_3{
+	display: block;
+	margin:10px 0px;	
+}
+
+/*fourth line center*/
+.center_side_4{
+	display: block;
+	margin:10px 0px;	
+}
+
+/*Sitemap content from right side*/
+#sitemap3{
+	background-color: black;
+	width: 187px;
+	margin-left: 700px;
+	margin-top: -180px;
+	height: 150px;
+	padding: 10px 0px;
+}
+
+/*first line right*/
+.right_side_1{
+	display: block;
+	margin:10px 0px;
+}
+
+/*second line right*/
+.right_side_2{
+	display: block;
+	margin:10px 0px;
+}
+
+/*third line right*/
+.right_side_3{
+	display: block;
+	margin:10px 0px;
+}
+
+/*Initialize footer*/
+#footer{
+	border: 2px solid white;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+
+
+
+/* Contact_Us Page */
+/*Contact content*/
+#contact{
+	border: 1px solid blue;
+	font-size: 20px;
+	float: right;
+	padding: 26px;
+	margin: 20px;
+	background-color: #e6f9ff;
+	width: 420px;
+	height: 520px;
+}
+
+/*Contact photo top left*/
+#contact_photo_1{
+	margin: 20px;
+}
+
+/*Contact photo second left*/
+#contact_photo_2{
+	margin: 20px;
+}
+
+
+
+
+/*About_Us Page*/
+/*Community center photo*/
+#community_center{
+	margin: 20px;
+}
+
+/*About us content*/
+#content_about_us{
+	border: 1px solid blue;
+	background-color: #e6f9ff;
+	margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+
+
+
+/*Hystory Page*/
+/*first photo right side*/
+#history_photo_1{
+	float: right;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+/*second photo left side*/
+#history_photo_2{
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+/*first content*/
+#history_content_1{
+	margin: 10px;
+	font-size: 16px;
+	padding-right: 20px;
+	padding-left: 20px;
+	}
+
+/*third photo right side*/
+#history_photo_3{
+	margin-right: 20px;
+	float: right;
+	margin-left: 10px;
+}
+
+/*third content*/
+#history_content_3{
+	margin: 20px;
+}
+
+/*second content*/
+#history_content_2{
+	margin: 20px;
+}
+
+
+
+
+/*Gallery Page*/
+/*first photo right side*/
+#gallery_photo_3{
+	float:right;
+	margin: 20px 20px;
+	margin-top: -576px;
+}
+
+/*first photo left side*/
+#gallery_photo_1{
+	margin: 20px 20px;
+}
+
+/*second photo left side*/
+#gallery_photo_2{
+	margin: 20px 20px;
+}
+
+/*second photo right side*/
+#gallery_photo_4{
+	margin: 20px 20px;
+	float:right;
+	margin-top: -288px;
+}
+
+/*third photo left side*/
+#gallery_photo_5{
+	margin: 20px 20px;
+}
+
+/*third photo right side*/
+#gallery_photo_7{
+	margin: 20px 20px;
+	float:right;
+	margin-top: -365px;
+}
+
+
+
+
+/*Location Page*/
+/*Location address left side*/
+#location_address{
+	margin: 20px;
+	font-size: 21px;
+}
+
+/*Location Photo Map*/
+#location_photo{
+	float: right;
+	margin: 20px;
+	border: 1px solid blue;
+}
+
+/*Direction link*/
+#direction_link{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	font-size: 18px;
+	background-color:blue;
+	color: white;
+	width: 210px;
+}
+
+
+
+
+/* Masters Page */
+/*Master photo left*/
+#masters_photo_1{
+	margin-top: -640px;	
+	margin-left: 20px;
+}
+
+/*Master photo right*/
+#masters_photo_2{
+	margin: 20px;
+	margin-left: 507px;
+}
+
+/*Content about 1 photo*/
+#master_content_1{
+	font-size: 20px;
+	margin: 20px;
+	background-color: #e6f9ff;
+	padding-left: 20px;
+	padding-top: 5px;
+	width:455px;
+	margin-top: -238px;
+}
+
+/*Content about 2 photo*/
+#master_content_2{
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+	width: 435px;
+	margin-left: 506px;
+	background-color: #e6f9ff;
+	padding-top: 5px;
+	margin-bottom: 75px;
+	padding-bottom: 0px;
+}
+
+
+
+
+/*Kims Team Page*/
+#kims_team_content_1{
+	font-size: 20px;
+	margin-left: 60px;
+}
+
+#kims_team_photo_1{
+	margin: 0px 25px 20px 60px;
+}
+
+
+
+
+/*Terminology Page*/
+#terminology_content_1{
+	margin-left: 500px;
+	margin-top: -182px;
+	font-size: 20px;
+}
+
+
+
+
+/*Events Page*/
+/*first photo left side*/
+#events_photo_1{
+	margin: 20px 20px;
+}
+
+/*first photo right side*/
+#events_photo_2{
+	margin: 20px 20px;
+	float: right;
+	margin-top: -688px;
+}
+
+/*second photo left side*/
+#events_photo_3{
+	margin: 20px 20px;
+	border: 1px solid lightblue;
+	width: 470px;
+}
+
+/*second photo right side*/
+#events_photo_4{
+	margin: 20px 20px;
+	float: right;
+	margin-top: -496px;
+	width: 470px;
+	border: 1px solid lightblue;
+}
+
+/*video demo*/
+#events_video{
+	margin-left: 80px;
+}
+
+
+
+
+
+
+
+
